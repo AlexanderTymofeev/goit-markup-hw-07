@@ -1,0 +1,121 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  padding-left: 40px;
+  padding-right: 40px;
+
+  width: 528px;
+  height: 581px;
+
+  background-color: var(--primary-background-color);
+
+  transform: translate(-50%, -50%) scale(1);
+
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-paragraph {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-top: 40px;
+  margin-bottom: 12px;
+
+  color: var(--secondary-text-color);
+}
+
+.modal-name-area {
+  position: relative;
+}
+
+.modal-person-img {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  margin-left: 12px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.modal-phone-area {
+  position: relative;
+}
+
+.modal-phone-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  margin-left: 12px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.modal-email-area {
+  position: relative;
+}
+
+.modal-email-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  margin-left: 12px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+.modal-agreement {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 13px;
+    margin-top: 3px;
+    content: '';
+    display: block;
+    width: 16px;
+    height: 15px;
+    border: 1px solid var(--secondary-text-color);
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.label-input-checked {
+  opacity: 0;
+  margin-right: 7px;
+  margin-left: 13px;
+}
+
+.mailing {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.42;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+
+  color: var(--third-text-color);
+}
