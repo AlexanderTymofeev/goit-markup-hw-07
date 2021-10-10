@@ -1,4 +1,4 @@
-.sociallink-list {
+.sociallink__list {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -8,7 +8,7 @@
   margin-right: 32px;
 }
 
-.sociallink-link {
+.sociallink__link {
   width: 44px;
   height: 44px;
   display: block;
@@ -29,27 +29,27 @@
   }
 }
 
-.sociallink-link:hover .sociallink-link,
-.sociallink-link:focus .sociallink-link {
+.sociallink__link:hover .sociallink__link,
+.sociallink__link:focus .sociallink__link {
   background-color: var(--accent-color);
   fill: var(--third-text-color);
 }
 
-.sociallink-element {
+.sociallink__element {
   display: block;
 }
 
-.sociallink-link:hover .sociallink-icon,
-.sociallink-link:focus .sociallink-icon {
+.sociallink__link:hover .sociallink__icon,
+.sociallink__link:focus .sociallink__icon {
   fill: var(--third-text-color);
   background-color: var(--accent-color);
 }
 
-.sociallink-icon {
+.sociallink__icon {
   fill: #afb1b8;
 }
 
-.sociallink-list-footer {
+.sociallink__list--footer {
   display: flex;
   list-style: none;
   justify-content: space-between;
@@ -57,12 +57,12 @@
   width: 206px;
 }
 
-.footer-social-links {
+.footer__social--links {
   padding-top: 12px;
   width: calc((100% - 30px) / 2);
 }
 
-.sociallink-element-footer {
+.sociallink__element--footer {
   display: block;
 
   &:not(:last-child) {
@@ -70,7 +70,7 @@
   }
 }
 
-.sociallink-link-footer {
+.sociallink__link--footer {
   width: 44px;
   height: 44px;
   display: block;
@@ -88,12 +88,12 @@
   }
 }
 
-.sociallink-link-footer:hover .sociallink-icon-footer,
-.sociallink-link-footer:focus .sociallink-icon-footer {
+.sociallink__link--footer:hover .sociallink__icon--footer,
+.sociallink__link--footer:focus .sociallink__icon--footer {
   fill: var(--third-text-color);
   background-color: var(--accent-color);
 }
 
-.sociallink-icon-footer {
+.sociallink__icon--footer {
   fill: #afb1b8;
 }

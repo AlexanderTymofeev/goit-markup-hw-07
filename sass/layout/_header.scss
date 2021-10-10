@@ -5,7 +5,7 @@
   padding-bottom: 25px;
 }
 
-.header-logo {
+.header__logo {
   text-decoration: none;
   color: var(--secondary-text-color);
   font-family: Raleway, sans-serif;
@@ -13,13 +13,14 @@
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 
 span {
   color: var(--accent-color);
 }
 
-.nav-link {
+.nav__link {
   position: relative;
   text-decoration: none;
   color: var(--secondary-text-color);
@@ -36,7 +37,7 @@ span {
   }
 }
 
-.nav-link.current::after {
+.nav__link--current::after {
   content: '';
   position: absolute;
   display: block;
@@ -47,15 +48,17 @@ span {
   bottom: -32px;
 }
 
-.current {
+.nav__link--current {
   color: #2196f3;
 }
 
-.header-contacts {
+.header__contacts {
   list-style: none;
+  display: flex;
+  margin-left: auto;
 }
 
-.contacts-link {
+.contacts__link {
   text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
@@ -74,52 +77,40 @@ span {
   }
 }
 
-.contacts-link:hover .contacts-link-mail,
-.contacts-link:focus .contacts-link-mail {
+.contacts__link:hover .contacts__link--mail,
+.contacts__link:focus .contacts__link--mail {
   fill: var(--accent-color);
 }
 
-.contacts-link:hover .contacts-link-phone,
-.contacts-link:focus .contacts-link-phone {
+.contacts__link:hover .contacts__link--phone,
+.contacts__link:focus .contacts__link--phone {
   fill: var(--accent-color);
 }
 
-.contacts-link-mail {
+.contacts__link--mail {
   fill: var(--primary-text-color);
   margin-right: 10px;
 }
 
-.contacts-link-phone {
+.contacts__link--phone {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
 
-.container-header {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-nav {
+.header__nav {
   display: flex;
   list-style: none;
 }
 
-.header-contacts {
-  display: flex;
-}
-
-.header-logo {
-  margin-right: 93px;
-}
-
-.nav-links:not(:last-child) {
+.nav__list:not(:last-child) {
   margin-right: 50px;
 }
 
-.header-mail:not(:last-child) {
+.header__mail:not(:last-child) {
   margin-right: 50px;
-}
-
-.header-contacts {
-  margin-left: auto;
 }

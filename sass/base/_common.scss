@@ -1,5 +1,4 @@
 /* ==========COMMON========== */
-
 :root {
   --primary-text-color: #757575;
   --secondary-text-color: #212121;
@@ -14,6 +13,7 @@
   --hero-background-color: #2f303a;
   --white-background-color: #ffffff;
 }
+
 body {
   font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
@@ -38,7 +38,7 @@ ol {
   display: block;
 }
 
-.inline-block {
+.inline__block {
   display: inline-block;
 }
 

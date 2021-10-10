@@ -1,4 +1,4 @@
-.regular-clients {
+.regular__clients {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -18,18 +18,18 @@
   }
 }
 
-.clients-link {
+.clients__link {
   display: block;
   width: 170px;
   height: 92px;
 }
 
-.clients-list {
+.clients__list {
   list-style: none;
   display: flex;
 }
 
-.clients-logo {
+.clients__logo {
   fill: #afb1b8;
   padding: 16px 32px;
   border: 1px solid #afb1b8;
@@ -39,14 +39,14 @@
     border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-link:hover .clients-logo,
-.clients-link:focus .clients-logo {
+.clients__link:hover .clients__logo,
+.clients__link:focus .clients__logo {
   fill: var(--accent-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
 }
 
-.work-examples {
+.work__examples {
   display: flex;
   flex-direction: column;
 }

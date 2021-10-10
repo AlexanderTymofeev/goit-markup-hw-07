@@ -1,4 +1,4 @@
-.close-button {
+.close__button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -11,8 +11,8 @@
   border: 1px solid #0000001a;
   border-radius: 50%;
 
-  &:hover .close-icon,
-  &:focus .close-icon {
+  &:hover .close__icon,
+  &:focus .close__icon {
     fill: var(--accent-color);
   }
 }
